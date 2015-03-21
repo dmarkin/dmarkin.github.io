@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, article, footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #6dff76;
+    min-height: 50px;
+}
+
+header > img {
+    width: 20%;
+    height: 20%;
+}
+
+.menu nav {
+    float: right;
+}
+
+.menu nav li {
+    list-style-position: inside;
+    font: normal 11px/1.25 Arial;
+    padding: 14px 10px 14px 0;
+    display: inline-block;
+}
+
+.menu nav li a {
+    color: #919191;
+}
