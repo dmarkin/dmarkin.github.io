@@ -2,28 +2,262 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markin Dmitry</title>
     <link rel="stylesheet" href="css/main.css"/>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <header>
-        <img src="images/photo.jpg" alt="Dmitry Markin"/>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#modules">Modules</a></li>
-                    <li><a href="#tools">Tools</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="photo">
+        <img src="images/photo200.jpg" title="Dmitry Markin" alt="Dmitry Markin"/>
+    </div>
+    <div class="about">
+        <h1>Markin Dmitry</h1>
+
+        <h3>JavaScript / Frontend Developer (since 2010)</h3>
+
+        <h3>Dnepropetrovsk UKR</h3>
+
+        <ul class="contact-icons">
+            <li class="github">
+                <a href="https://github.com/dmarkin" title="GitHub">
+                </a></li>
+            <li class="facebook">
+                <a href="http://www.facebook.com/dreamonus" target="_blank" title="facebook">
+                </a></li>
+            <li class="linkedin">
+                <a href="https://www.linkedin.com/profile/view?id=381035175" target="_blank" title="linkedin">
+                </a></li>
+            <li class="email">
+                <a href="mailto:dmarkin@ua.fm" title="email">
+                </a></li>
+            <li class="skype">
+                <a href="skype:dreams_dp?add" title="Skype">
+                </a></li>
+        </ul>
+    </div>
+
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#projects">&raquo; Projects</a></li>
+                <li><a href="#tools">&raquo; Tools</a></li>
+                <li><a href="#modules">&raquo; Modules</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<article>
+    <div class="portfolio">
+        <h2><a name="projects"></a>Projects</h2>
+
+        <ul>
+            <li class="portfolio-item part-visible">
+                <figure>
+                    <a href="http://dneprchess.info">
+                        <img src="images/dneprchess405.jpg" alt="Dnepropetrovsk Region Chess Federation"/>
+                    </a>
+                    <figcaption>Dnepropetrovsk Region Chess Federation (participant of development team)</figcaption>
+                </figure>
+            </li>
+            <li class="portfolio-item part-visible">
+                <figure>
+                    <a href="http://extradj.com">
+                        <img src="images/extradj405.jpg" alt="ExtraDJ"/>
+                    </a>
+                    <figcaption>ExtraDJ - For Dance Music Professionals (participant of development team)</figcaption>
+                </figure>
+            </li>
+            <li class="portfolio-item part-visible">
+                <figure>
+                    <a href="http://cci.dp.ua/index-en.html">
+                        <img src="images/cci405.jpg" alt="Dnepropetrovsk Chamber of Commerce and Industry"/>
+                    </a>
+                    <figcaption>Dnepropetrovsk Chamber of Commerce and Industry (participant of development team)
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+
+        <ul class="">
+            <li class="portfolio-item part-visible">
+                <figure>
+                    <a href="http://dmarkin.github.io/CorporateBlue">
+                        <img src="images/corpblue405.jpg" alt="Corporate Blue Mark Up Example"/>
+                    </a>
+                    <figcaption>Corporate Blue Mark Up Example</figcaption>
+                </figure>
+            </li>
+            <li class="portfolio-item part-visible">
+                <figure>
+                    <a href="http://dmarkin.github.io/SomeCorp">
+                        <img src="images/somecorp405.jpg" alt="Some Corporate Mark Up Example"/>
+                    </a>
+                    <figcaption>Some Corporate Mark Up Example</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+
+    <div class="slogan">
+        <h2>Make Your sites styled and functional with new web technologies!</h2>
+        <img src="images/website_banner.jpg" alt=""/>
+    </div>
+
+    <div class="tools">
+        <h2><a name="tools"></a>Used Development Tools</h2>
+
+        <div class="row">
+            <div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/angular150.png" alt="BackboneJS"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/html150.png" alt="HTML 5"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/javascript150.png" alt="JavaScript 5"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/css150.png" alt="CSS 3"/></div>
+                </div>
+            </div><div class="tool"><div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/backbone150.png" alt="AngularJS"/></div>
+                </div>
+            </div>
         </div>
 
-    </header>
-    <article>
+        <div class="row">
+            <div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/webstorm150nottransp.png" alt="BackboneJS"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/less150.png" alt="HTML 5"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/jqurery150.png" alt="JavaScript 5"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/photoshop150.png" alt="CSS 3"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/joomla150.png" alt="AngularJS"/></div>
+                </div>
+            </div>
+        </div>
 
-    </article>
-    <footer>
+        <div class="row">
+            <div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/github150.png" alt="BackboneJS"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/grunt150.png" alt="HTML 5"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/bootstrap150.png" alt="JavaScript 5"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper">
+                    <div class="tool-content"><img src="images/ajax150nottransp.png" alt="CSS 3"/></div>
+                </div>
+            </div><div class="tool">
+                <div class="tool-wrapper colored">
+                    <div class="tool-content"><img src="images/wordpress150.png" alt="AngularJS"/></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </footer>
+    <div class="modules">
+        <div class="modules-list">
+        <h2><a name="modules"></a>Created JavaScript Modules</h2>
+        <ul>
+            <li>
+                Simple Contacts List<br/>
+                (used AngularJS, Grunt)<br/>
+                <a href="http://dmarkin.github.io/ContactsList">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a>
+                <a href="https://github.com/dmarkin/ContactsList">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li><li>
+                Slider<br/>
+                (used jQuery)<br/>
+                <a href="http://dmarkin.github.io/Slider">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a> <a href="https://github.com/dmarkin/Slider">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li><li>
+                Product Infobox<br/>
+                (used jQuery)<br/>
+                <a href="http://dmarkin.github.io/InfoBox">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a> <a href="https://github.com/dmarkin/Infobox">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li><li>
+                Zoomable Images<br/>
+                (used jQuery)<br/>
+                <a href="http://dmarkin.github.io/ZoomableImages">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a> <a href="https://github.com/dmarkin/ZoomableImages">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li><li>
+                Tag Cloud<br/>
+                (used jQuery, BootstrapCSS)<br/>
+                <a href="http://dmarkin.github.io/TagCloud">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a> <a href="https://github.com/dmarkin/TagCloud">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li><li>
+                Form with Validation (1)<br/>
+                (used native JS, BootstrapCSS, regexp)<br/>
+                <a href="http://dmarkin.github.io/FormValidation/form.html">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a> <a href="https://github.com/dmarkin/FormValidation">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li><li>
+                Stopwatch Timer<br/>
+                (used native JS, BootstrapCSS)<br/>
+                <a href="http://dmarkin.github.io/StopWatch">
+                    <img src="images/view20.png" title="View" alt="View"/>
+                </a> <a href="https://github.com/dmarkin/StopWatch">
+                    <img src="images/github20.png" title="View" alt="Code"/>
+                </a>
+            </li>
+            <!--<li>Form with Validation (2)</li>-->
+
+            <!--<li>Content List</li>-->
+        </ul>
+        </div>
+    </div>
+
+</article>
+<footer>
+    <div>
+        <p>
+            &copy; Markin Dmitry, 2015
+        </p>
+    </div>
+</footer>
 </body>
 </html>
